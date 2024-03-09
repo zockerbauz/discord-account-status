@@ -1,5 +1,7 @@
 import requests
 import time
+from keep_alive import keep_alive
+keep_alive()
 
 # Setzen Sie hier Ihre API-URL
 url = 'https://discord.com/api/v9/users/@me/settings-proto/1'
